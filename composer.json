@@ -1,0 +1,19 @@
+{
+    "name":"php-paxos/php-paxos",
+    "type":"library",
+    "description":"composer test",
+    "license":"MIT",
+    "require":{
+        "php":">=5.3.0",
+        "psr/log":"~1.0"
+    },
+    "authors":[
+      {
+        "name":"mouthliu",
+        "email":"mouthliu@foxmail.com"
+      }
+    ],
+  "autoload":{
+    "psr-4":{"PhpPaxos\\":"src"}
+  }
+}
